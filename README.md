@@ -39,4 +39,4 @@ the web application: - Google Maps API key: CREDENTIAL_2 - OpenWeatherMap API ke
 CREDENTIAL_3 The following passwords are used to access various components\
 of the  web application: - MySQL database password: CREDENTIAL_4")
 
-full_query_result = re_append_sensitive_data.re_append_sensitive_data(returned_query_text, sanitized[1])
+full_query_result = re_append_sensitive_data.re_append_sensitive_data(sanitized[0], sanitized[1])
